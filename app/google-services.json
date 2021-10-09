@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "244657299410",
+    "project_id": "combinedall-98c2a",
+    "storage_bucket": "combinedall-98c2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244657299410:android:0f38c508dffd544392b20b",
+        "android_client_info": {
+          "package_name": "com.choudhary.combinedapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244657299410-gm340asnc561umka5p7pg4e3scq61kug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8PMxyGI2XaskEIlGfh83d7W0CE8-FjeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244657299410-gm340asnc561umka5p7pg4e3scq61kug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

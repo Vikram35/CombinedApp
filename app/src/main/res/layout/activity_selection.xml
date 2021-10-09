@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectionActivity">
+
+    <Button
+        android:id="@+id/selction_blood"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="299dp"
+        android:background="#BC1212"
+        android:backgroundTint="#092BEB"
+        android:text="Assignment - 2 (Blood bank)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selection_contACT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#BC1212"
+        android:backgroundTint="#092BEB"
+        android:text="ASSIGNMENT- 3 (My contacts App )"
+        app:layout_constraintEnd_toEndOf="@+id/selction_blood"
+        app:layout_constraintStart_toStartOf="@+id/selction_blood"
+        app:layout_constraintTop_toBottomOf="@+id/selction_blood" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="160dp"
+        android:text="Choose One from below"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selection_firebse"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#092BEB"
+        android:text="ASSIGNMENT- 1 ( Firebase Authentication )"
+        app:layout_constraintBottom_toTopOf="@+id/selction_blood"
+        app:layout_constraintEnd_toEndOf="@+id/selction_blood"
+        app:layout_constraintStart_toStartOf="@+id/selction_blood" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/skp" />
+
+    <Button
+        android:id="@+id/full_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="156dp"
+        android:backgroundTint="#EB0909"
+        android:text="LOGOUT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selection_contACT" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
